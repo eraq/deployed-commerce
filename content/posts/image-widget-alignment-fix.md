@@ -8,13 +8,13 @@ So, I found that my wordpress Image Widget plugin by Shane and Peter inc, was ha
 
 Note the
 
-```
+```php
 echo "<div>";
 ```
 
 3rd to last line is what i added. You’ll see its right above the echo to the $after_widget string..
 
-```
+```php
 <?php
 echo $before_widget;
 if ( !empty( $title ) ) { echo $before_title . $title . $after_title; }

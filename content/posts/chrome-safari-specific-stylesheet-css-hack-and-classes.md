@@ -10,12 +10,10 @@ So what I needed was a way to have two different style classes for each browser 
 
 So I did some research and found that we can use the webkit difference of chrome and safari to firefox and IE. So, if you want a chrome/safari specific css style override just frame it in the below code, and drop it in below the old line# in your stylesheet.
 
-```
+```css
 #div1 {old rules for:IE,Firefox;}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-
-#div1 {new rules for:Chrome,Safari;}
-
+	#div1 {new rules for:Chrome,Safari;}
 }
 ```

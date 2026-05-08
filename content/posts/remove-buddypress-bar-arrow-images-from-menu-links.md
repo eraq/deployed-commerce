@@ -8,13 +8,10 @@ draft: false
 
 All you have to do is override the <li> tags background css attribute. It’s easy, watch..
 
-```
+```html
 <li style=”background:none;”>
-
-//Insert your link url or relative url, and your link text below
-
-<a href=”http://EXAMPLE.COM”>EXAMPLE LINK TEXT</a>
-
+	<!-- Insert your link url or relative url, and your link text below -->
+	<a href=”http://EXAMPLE.COM”>EXAMPLE LINK TEXT</a>
 </li>
 ```
 

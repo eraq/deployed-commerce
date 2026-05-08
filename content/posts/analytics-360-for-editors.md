@@ -8,7 +8,7 @@ I wanted Analytics360 to be visible to the editors of a particular website. I fo
 
 The code to replace is the a360_admin_menu function in analytics360.php starting at line #635.. Replace that function with this modified function
 
-```
+```php
 function a360_admin_menu() {
 	if (current_user_can('manage_options')) {
 		add_options_page(

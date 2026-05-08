@@ -10,12 +10,12 @@ So I installed the wpmu dev teams blogs directory and their members directory pl
 
 Open up the blogs directory plugins php file, and find and remove the following line:
 
-```
+```php
 add_filter(‘the_title’, ‘blogs_directory_title_output’, 99, 2);
 ```
 
 Now in the Members Directory, Find and remove this line:
 
-```
+```php
 add_filter(‘the_title’, ‘members_directory_title_output’, 99, 2);
 ```

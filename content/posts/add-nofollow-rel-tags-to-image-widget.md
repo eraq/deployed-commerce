@@ -6,7 +6,7 @@ draft: false
 
 So, to modify the href tag for the image widget plugin output. just open up /views/widget.php and add rel=”nofollow” inside the echo string on the 6th line. Here is a copy of my code
 
-```
+```php
 <?php
 echo $before_widget;
 if ( !empty( $title ) ) { echo $before_title . $title . $after_title; }

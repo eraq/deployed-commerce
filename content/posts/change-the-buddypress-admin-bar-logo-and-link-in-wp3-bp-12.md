@@ -15,8 +15,8 @@ Create a php file inside /mu-plugins/ named ‘erocks-buddypress-logo-mod.php’
 ```php
 // CHANGE BP ADMIN BAR LOGO
 function erocks_bp_adminbar_logo() {
-global $bp;
-echo ‘<a href=”’ . $bp->root_domain . ‘”><img id=”admin-bar-logo” src=”http://EXAMPLE.LOGO.URL.PNG” alt=”Eriks Hosting | Solutions For An Online World” /></a>’;
+	global $bp;
+	echo ‘<a href=”’ . $bp->root_domain . ‘”><img id=”admin-bar-logo” src=”http://EXAMPLE.LOGO.URL.PNG” alt=”Eriks Hosting | Solutions For An Online World” /></a>’;
 }
 remove_action( ‘bp_adminbar_logo’, ‘bp_adminbar_logo’ );
 add_action( ‘bp_adminbar_logo’, ‘erocks_bp_adminbar_logo’ );

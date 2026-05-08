@@ -25,8 +25,8 @@ Author URI: http://erikshosting.com
 
 //Links and Menus Added To The Following Function Are Always Visible On The BP Bar
 function bp_adminbar_currentsite_menu() {
-global $bp;
-?>
+	global $bp;
+	?>
 
 <li>
 <!-- Insert your link url or relative url, and your link text below -->
@@ -59,8 +59,8 @@ Author URI: http://erikshosting.com
 
 //Links and Menus Added To The Following Function Are Always Visible On The BP Bar
 function bp_adminbar_currentsite_menu() {
-global $bp;
-?>
+	global $bp;
+	?>
 <li>
 <!-- Insert your 1st link url or relative url, and your link text below -->
 <a href="http://EXAMPLE1.COM">EXAMPLE LINK TEXT1</a>
@@ -102,8 +102,8 @@ Author URI: http://erikshosting.com
 
 //Links and Menus Added To The Following Function Are Always Visible On The BP Bar
 function bp_adminbar_currentsite_menu() {
-global $bp;
-?>
+	global $bp;
+	?>
 
 <li>
 <!-- Insert your parent link url or relative url, and your link text below -->
@@ -154,8 +154,8 @@ Author URI: http://erikshosting.com
 
 //Links and Menus Added To The Following Function Are Always Visible On The BP Bar
 function bp_adminbar_currentsite_menu() {
-global $bp;
-?>
+	global $bp;
+	?>
 
 <li>
 <!-- Insert your parent link url or relative url, and your link text below -->

@@ -23,8 +23,8 @@ Author URI: http://erikshosting.com
 
 //Links and Menus Added To The Following Function Are Always Visible On The BP Bar
 function bp_adminbar_currentsite_menu() {
-global $bp;
-?>
+	global $bp;
+	?>
 
 <!-- Call All Pages Via A WordPress Shortcode! -->
 <?php wp_list_pages('title_li='); ?>
@@ -53,8 +53,8 @@ Author URI: http://erikshosting.com
 
 //Links and Menus Added To The Following Function Are Always Visible On The BP Bar
 function bp_adminbar_currentsite_menu() {
-global $bp;
-?>
+	global $bp;
+	?>
 
 <!-- Call All Pages Via A WordPress Shortcode As A Drop Down! -->
 <li><a href="#">Pages</a>
