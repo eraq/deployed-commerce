@@ -3,7 +3,7 @@
 A technical blog about commerce infrastructure, self-hosting, and developer tools.
 Live at [deployedcommerce.com](https://deployedcommerce.com).
 
-This repo is intentionally transparent — the site itself is a working example of the
+This repo is intentionally transparent, the site itself is a working example of the
 stack described in its posts. Everything here is public and reproducible.
 
 ---
@@ -17,7 +17,7 @@ stack described in its posts. Everything here is public and reproducible.
 | Hosting | [Cloudflare Pages](https://pages.cloudflare.com/) |
 | DNS / SSL | Cloudflare (auto-provisioned) |
 | Domain | deployedcommerce.com (registered with Cloudflare) |
-| Source | This repo — every commit to `main` autodeploys |
+| Source | This repo, every commit to `main` autodeploys |
 
 ---
 
@@ -32,7 +32,7 @@ hugo --gc --minify
 The `public/` output directory is served globally via Cloudflare's CDN. Build time
 is typically under 30 seconds. SSL is automatic.
 
-The theme (PaperMod) is a git submodule — it is not vendored into this repo directly.
+The theme (PaperMod) is a git submodule, it is not vendored into this repo directly.
 Cloudflare Pages fetches it at build time via `git submodule update --init --recursive`.
 
 ---
@@ -40,11 +40,11 @@ Cloudflare Pages fetches it at build time via `git submodule update --init --rec
 ## Repository Structure
 deployed-commerce/
 ├── content/
-│   ├── posts/          # Blog posts — one .md file per post
+│   ├── posts/          # Blog posts, one .md file per post
 │   └── about.md        # About page
 ├── themes/
 │   └── PaperMod/       # Theme submodule (do not edit directly)
-├── layouts/            # Local overrides — copy theme files here to customize
+├── layouts/            # Local overrides, copy theme files here to customize
 ├── static/             # Static assets (images, favicon, etc.)
 ├── archetypes/         # Post templates
 ├── hugo.toml           # Site configuration
@@ -58,7 +58,7 @@ edit your copy. Hugo uses local layouts first.
 
 ## Adding Content
 
-The primary authoring workflow is via the GitHub web UI — no local tooling required.
+The primary authoring workflow is via the GitHub web UI, no local tooling required.
 
 1. Navigate to `content/posts/` in this repo on GitHub
 2. Click **Add file → Create new file**
@@ -77,7 +77,7 @@ description: "One sentence summary shown in post listings."
 Your content here. Standard Markdown.
 ```
 
-5. Commit directly to `main` — the site redeploys automatically
+5. Commit directly to `main`, the site redeploys automatically
 
 ---
 
@@ -106,7 +106,7 @@ local browser.
 ## Hugo Updates
 
 Hugo is installed manually from the official GitHub releases (extended edition).
-It is **not** managed by apt — do not run `sudo apt install hugo`.
+It is **not** managed by apt, do not run `sudo apt install hugo`.
 
 **Check current version:**
 
@@ -142,7 +142,7 @@ git push
 ```
 
 Check [PaperMod's README](https://github.com/adityatelange/hugo-PaperMod) after
-updating — the minimum Hugo version requirement may have increased.
+updating, the minimum Hugo version requirement may have increased.
 
 ---
 
