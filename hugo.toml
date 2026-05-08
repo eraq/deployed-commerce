@@ -1,0 +1,56 @@
+baseURL = "https://deployedcommerce.com/"
+languageCode = "en-us"
+title = "Deployed Commerce"
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[pagination]
+  pagerSize = 10
+[params]
+  env = "production"
+  title = "Deployed Commerce"
+  description = "Technical insights on modern commerce infrastructure."
+  author = "Erik"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+  ShowRssButtonInSectionTermList = true
+
+[params.homeInfoParams]
+  Title = "Deployed Commerce"
+  Content = "Technical writing on commerce infrastructure, self-hosting, and developer tools."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/eraq"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  style = "github-dark"
+  lineNos = false
+  codeFences = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
