@@ -6,7 +6,7 @@ draft: false
 
 ### Want to add all your pages into your buddypress admin bar automatically?
 
-It’s easy as pie! Just add wp_list_pages to your buddypress bar with the following code!
+It's easy as pie! Just add wp_list_pages to your buddypress bar with the following code!
 
 Create a file called erocks-admin-bar-mod.php in your /plugins/ dir, put in the following code, then activate the BP Nav Bar Mods Plugin on the plugin control panel
 
@@ -26,8 +26,8 @@ function bp_adminbar_currentsite_menu() {
 	global $bp;
 	?>
 
-<!-- Call All Pages Via A WordPress Shortcode! -->
-<?php wp_list_pages('title_li='); ?>
+	<!-- Call All Pages Via A WordPress Shortcode! -->
+	<?php wp_list_pages('title_li='); ?>
 
 <?php
 }
@@ -56,12 +56,13 @@ function bp_adminbar_currentsite_menu() {
 	global $bp;
 	?>
 
-<!-- Call All Pages Via A WordPress Shortcode As A Drop Down! -->
-<li><a href="#">Pages</a>
-<ul>
-<?php wp_list_pages('title_li='); ?>
-</ul>
-</li>
+	<!-- Call All Pages Via A WordPress Shortcode As A Drop Down! -->
+	<li>
+		<a href="#">Pages</a>
+		<ul>
+			<?php wp_list_pages('title_li='); ?>
+		</ul>
+	</li>
 
 <?php
 }

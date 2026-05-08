@@ -8,7 +8,7 @@ It is entirely possible to add your own links to the buddypress bar without modi
 
 ### First, lets tackle adding a simple link to the buddypress admin bar.
 
-What I’m going to do is tap into the buddypress admin bar and add a link using a php file placed in the ‘/wp-content/plugins/’ folder and activated via the plugins menu. Create a file in your /plugins/ dir and name it erocks-admin-bar-mods.php then drop the following code into it. After this, go to your plugins page, and activate the BP Nav Bar Mods Plugin.
+What I'm going to do is tap into the buddypress admin bar and add a link using a php file placed in the '/wp-content/plugins/' folder and activated via the plugins menu. Create a file in your /plugins/ dir and name it erocks-admin-bar-mods.php then drop the following code into it. After this, go to your plugins page, and activate the BP Nav Bar Mods Plugin.
 
 Lets create that simple link!
 
@@ -28,10 +28,10 @@ function bp_adminbar_currentsite_menu() {
 	global $bp;
 	?>
 
-<li>
-<!-- Insert your link url or relative url, and your link text below -->
-<a href="http://EXAMPLE.COM">EXAMPLE LINK TEXT</a>
-</li>
+	<li>
+		<!-- Insert your link url or relative url, and your link text below -->
+		<a href="http://EXAMPLE.COM">EXAMPLE LINK TEXT</a>
+	</li>
 
 <?php
 }
@@ -61,18 +61,19 @@ Author URI: http://erikshosting.com
 function bp_adminbar_currentsite_menu() {
 	global $bp;
 	?>
-<li>
-<!-- Insert your 1st link url or relative url, and your link text below -->
-<a href="http://EXAMPLE1.COM">EXAMPLE LINK TEXT1</a>
-</li>
-<li>
-<!-- Insert your 2nd link url or relative url, and your link text below -->
-<a href="http://EXAMPLE2.COM">EXAMPLE LINK TEXT2</a>
-</li>
-<li>
-<!-- Insert your 3rd link url or relative url, and your link text below -->
-<a href="http://EXAMPLE3.COM">EXAMPLE LINK TEXT3</a>
-</li>
+
+	<li>
+		<!-- Insert your 1st link url or relative url, and your link text below -->
+		<a href="http://EXAMPLE1.COM">EXAMPLE LINK TEXT1</a>
+	</li>
+	<li>
+		<!-- Insert your 2nd link url or relative url, and your link text below -->
+		<a href="http://EXAMPLE2.COM">EXAMPLE LINK TEXT2</a>
+	</li>
+	<li>
+		<!-- Insert your 3rd link url or relative url, and your link text below -->
+		<a href="http://EXAMPLE3.COM">EXAMPLE LINK TEXT3</a>
+	</li>
 
 <?php
 }
@@ -105,26 +106,23 @@ function bp_adminbar_currentsite_menu() {
 	global $bp;
 	?>
 
-<li>
-<!-- Insert your parent link url or relative url, and your link text below -->
-<a href="http://EXAMPLE1.COM">TOP PARENT MENU LINK TEXT</a>
+	<li>
+		<!-- Insert your parent link url or relative url, and your link text below -->
+		<a href="http://EXAMPLE1.COM">TOP PARENT MENU LINK TEXT</a>
 
-<!-- Start The Drop Down Menu By Not Closing The LI Tag From The Item Above, & By Starting A UL Tag Below -->
-<ul>
-
-<li>
-<!-- Insert your 1st dropdown menu sub item link url or relative url, and your link text below -->
-<a href="http://EXAMPLE2.COM">EXAMPLE LINK TEXT2</a>
-</li>
-
-<li>
-<!-- Insert your 2nd dropdown menu sub item link url or relative url, and your link text below -->
-<a href="http://EXAMPLE3.COM">EXAMPLE LINK TEXT3</a>
-</li>
-
-<!-- Below Ends The Drop Down Menu By Closing The UL and LI Tags -->
-</ul>
-</li>
+		<!-- Start The Drop Down Menu By Not Closing The LI Tag From The Item Above, & By Starting A UL Tag Below -->
+		<ul>
+			<li>
+				<!-- Insert your 1st dropdown menu sub item link url or relative url, and your link text below -->
+				<a href="http://EXAMPLE2.COM">EXAMPLE LINK TEXT2</a>
+			</li>
+			<li>
+				<!-- Insert your 2nd dropdown menu sub item link url or relative url, and your link text below -->
+				<a href="http://EXAMPLE3.COM">EXAMPLE LINK TEXT3</a>
+			</li>
+			<!-- Below Ends The Drop Down Menu By Closing The UL and LI Tags -->
+		</ul>
+	</li>
 
 <?php
 }
@@ -157,47 +155,40 @@ function bp_adminbar_currentsite_menu() {
 	global $bp;
 	?>
 
-<li>
-<!-- Insert your parent link url or relative url, and your link text below -->
-<a href="http://EXAMPLE.COM">TOP PARENT MENU LINK TEXT</a>
+	<li>
+		<!-- Insert your parent link url or relative url, and your link text below -->
+		<a href="http://EXAMPLE.COM">TOP PARENT MENU LINK TEXT</a>
 
-<!-- Start The Drop Down Menu By Not Closing The LI Tag From The Item Above, & By Starting A UL Tag Below -->
-<ul>
+		<!-- Start The Drop Down Menu By Not Closing The LI Tag From The Item Above, & By Starting A UL Tag Below -->
+		<ul>
+			<li>
+				<!-- Insert your 1st dropdown menu sub item link url or relative url, and your link text below -->
+				<a href="http://EXAMPLE.COM">EXAMPLE LINK TEXT</a>
+			</li>
+			<li>
+				<!-- Start The Flyout Menu Off The Item Below -->
+				<a href="http://EXAMPLE.COM">EXAMPLE LINK TEXT</a>
 
-<li>
-<!-- Insert your 1st dropdown menu sub item link url or relative url, and your link text below -->
-<a href="http://EXAMPLE.COM">EXAMPLE LINK TEXT</a>
-</li>
-
-<li>
-<!-- Start The Flyout Menu Off The Item Below -->
-<a href="http://EXAMPLE.COM">EXAMPLE LINK TEXT</a>
-
-<!-- Instead of Closing the LI tag, Start a UL tag To Create The Flyout Menu -->
-<ul>
-
-<li>
-<!-- Insert your 1st flyout menu sub-sub item link url or relative url, and your link text below -->
-<a href="http://EXAMPLE.COM">EXAMPLE LINK TEXT</a>
-</li>
-
-<li>
-<!-- Insert your 2nd flyout menu sub-sub item link url or relative url, and your link text below -->
-<a href="http://EXAMPLE.COM">EXAMPLE LINK TEXT</a>
-</li>
-
-<!-- Below Ends The Flyout Menu By Closing The UL And LI Tags -->
-</ul>
-</li>
-
-<!-- Go Back To The Drop Down Menu And Add Another Item -->
-<li>
-<a href="http://EXAMPLE4.COM">EXAMPLE LINK TEXT4</a>
-</li>
-
-<!-- Below Ends The Drop Down Menu By Closing The UL and LI Tags -->
-</ul>
-</li>
+				<!-- Instead of Closing the LI tag, Start a UL tag To Create The Flyout Menu -->
+				<ul>
+					<li>
+						<!-- Insert your 1st flyout menu sub-sub item link url or relative url, and your link text below -->
+						<a href="http://EXAMPLE.COM">EXAMPLE LINK TEXT</a>
+					</li>
+					<li>
+						<!-- Insert your 2nd flyout menu sub-sub item link url or relative url, and your link text below -->
+						<a href="http://EXAMPLE.COM">EXAMPLE LINK TEXT</a>
+					</li>
+					<!-- Below Ends The Flyout Menu By Closing The UL And LI Tags -->
+				</ul>
+			</li>
+			<!-- Go Back To The Drop Down Menu And Add Another Item -->
+			<li>
+				<a href="http://EXAMPLE4.COM">EXAMPLE LINK TEXT4</a>
+			</li>
+			<!-- Below Ends The Drop Down Menu By Closing The UL and LI Tags -->
+		</ul>
+	</li>
 
 <?php
 }
