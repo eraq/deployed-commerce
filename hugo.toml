@@ -44,6 +44,11 @@ buildFuture = false
   url = "/about/"
   weight = 3
 
+[[menu.main]]
+  name = "Colophon"
+  url = "/colophon/"
+  weight = 4
+
 [markup.goldmark.renderer]
   unsafe = true
 
