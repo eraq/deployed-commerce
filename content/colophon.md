@@ -4,7 +4,7 @@ date: 2026-05-09
 draft: false
 ---
 
-This site is built with [Hugo](https://gohugo.io/) and hosted on [Cloudflare Pages](https://pages.cloudflare.com/). Every commit to the `main` branch on GitHub triggers an automatic build and deploy — typically live within 30 seconds.
+This site is built with [Hugo](https://gohugo.io/) and hosted on [Cloudflare Pages](https://pages.cloudflare.com/). Every commit to the `main` branch on GitHub triggers an automatic build and deploy, typically live within 30 seconds.
 
 ## Stack
 
@@ -14,11 +14,11 @@ This site is built with [Hugo](https://gohugo.io/) and hosted on [Cloudflare Pag
 | Theme | [PaperMod](https://github.com/adityatelange/hugo-PaperMod), via git submodule |
 | Hosting | Cloudflare Pages |
 | DNS & SSL | Cloudflare (auto-provisioned) |
-| Source | [GitHub](https://github.com/eraq/deployed-commerce) — public and reproducible |
+| Source | [GitHub](https://github.com/eraq/deployed-commerce), public and reproducible |
 
 ## Philosophy
 
-The stack here is deliberately minimal. No database, no server-side runtime, no CMS dashboard to maintain. Content lives as Markdown files in a git repository — versioned, portable, and straightforward to reason about.
+The stack here is deliberately minimal. No database, no server-side runtime, no CMS dashboard to maintain. Content lives as Markdown files in a git repository, versioned, portable, and straightforward to reason about.
 
 Cloudflare's global CDN handles delivery. SSL is automatic. The entire build pipeline is a single command:
 
@@ -30,7 +30,7 @@ The source repository is intentionally public. The site is a working example of 
 
 ## Authoring
 
-Posts are written in Markdown, authored locally in an IDE, and merged to `main` via pull request. One `.md` file per post under `content/posts/` — no proprietary formats, no lock-in.
+Posts are written in Markdown, authored locally in an IDE, and merged to `main` via pull request. One `.md` file per post under `content/posts/`, no proprietary formats, no lock-in.
 
 ## Theme
 
