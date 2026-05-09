@@ -58,26 +58,35 @@ edit your copy. Hugo uses local layouts first.
 
 ## Adding Content
 
-The primary authoring workflow is via the GitHub web UI, no local tooling required.
+The primary authoring workflow is writing locally in an IDE (such as VS Code or IntelliJ)
+and merging to `main` via a pull request.
 
-1. Navigate to `content/posts/` in this repo on GitHub
-2. Click **Add file → Create new file**
-3. Name the file `your-post-slug.md`
-4. Use this frontmatter:
+1. Create a feature branch:
 
-```markdown
----
-title: "Your Post Title"
-date: YYYY-MM-DD
-draft: false
-tags: ["tag1", "tag2"]
-description: "One sentence summary shown in post listings."
----
+   ```bash
+   git checkout -b post/your-post-slug
+   ```
 
-Your content here. Standard Markdown.
-```
+2. Create `content/posts/your-post-slug.md` with this frontmatter:
 
-5. Commit directly to `main`, the site redeploys automatically
+   ```markdown
+   ---
+   title: "Your Post Title"
+   date: YYYY-MM-DD
+   draft: false
+   tags: ["tag1", "tag2"]
+   description: "One sentence summary shown in post listings."
+   ---
+
+   Your content here. Standard Markdown.
+   ```
+
+3. Preview locally with `hugo server -D`, then commit and push your branch.
+
+4. Open a pull request on GitHub and merge to `main`. The site redeploys automatically on merge.
+
+Alternatively, the GitHub web UI can be used for quick edits — navigate to
+`content/posts/`, click **Add file → Create new file**, and open a pull request from there.
 
 ---
 
