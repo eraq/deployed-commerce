@@ -38,6 +38,8 @@ Cloudflare Pages fetches it at build time via `git submodule update --init --rec
 ---
 
 ## Repository Structure
+
+```
 deployed-commerce/
 ├── content/
 │   ├── posts/          # Blog posts, one .md file per post
@@ -49,6 +51,7 @@ deployed-commerce/
 ├── archetypes/         # Post templates
 ├── hugo.toml           # Site configuration
 └── .gitignore
+```
 
 To override any theme component without modifying the submodule, copy the relevant
 file from `themes/PaperMod/layouts/` into the matching path under `layouts/` and
