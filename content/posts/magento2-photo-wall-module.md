@@ -4,6 +4,10 @@ date: 2023-02-23
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 I shipped a small Magento 2 module this week that I've been meaning to build for a while. It's called Photo Wall, and it does exactly what it sounds like: gives you a clean admin interface to manage a collection of photos, then displays them in a responsive grid at `/photo-wall` on your storefront.
 
 The module is available at [github.com/eraq/magento2-photo-wall](https://github.com/eraq/magento2-photo-wall).
