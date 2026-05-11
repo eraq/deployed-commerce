@@ -4,6 +4,10 @@ date: 2010-08-15
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 ## Want to use a WordPress plugins shorttag inside your template files?
 
 ### Use this nifty php snippet to call the shorttag properly!

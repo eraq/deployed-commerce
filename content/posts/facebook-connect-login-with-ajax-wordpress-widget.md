@@ -4,6 +4,10 @@ date: 2010-08-15
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 So, I installed the Simple Facebook Connect plugin for a client, but I found that its login widget was lacking.
 
 I prefer to use the login with ajax plugin, as it has error reporting and lost pwd functions all from the front page. There is nothing more irritating to me than having users redirected to the login.php page simply because of a miss-typed pwd. In a multi-site environment being redirected to the login page of the top level blog, totally breaks the feel of the sub-blog.

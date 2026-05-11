@@ -4,6 +4,10 @@ date: 2010-08-12
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 Plugin Management vs Plugin Commander, With WordPress MU Or Multi-Site
 
 Plugin Management is far superior to Plugin Commander,

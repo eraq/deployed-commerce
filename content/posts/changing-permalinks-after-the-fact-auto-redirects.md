@@ -4,6 +4,10 @@ date: 2010-08-16
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 ### So you already picked your permalink structure..
 
 ..Now you have thousands of posts and wish you hadn’t organized them by something silly like /%mood-your-in-when-publishing-this-post%/%post-id%/…

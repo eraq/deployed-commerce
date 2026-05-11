@@ -4,6 +4,10 @@ date: 2011-10-03
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 So, I found that my wordpress Image Widget plugin by Shane and Peter inc, was having an issue aligning in my sidebar. I noticed that when I added multiple instances of the widget, they wouldn’t line up vertically. this naturally bugged the shit out of me, so I took a look at what was going on. Turns out the widget was actually closing a div that it hadn’t opened. Basically this update (3.2.8) is creating validation errors and prematuraly closing my themes sidebar div. So, I opened up the plugin files and took a look. I started with the /views/widget.php file that the readme mentions as being the output for the frontend widget display. Looking in the file I couldn’t see where the close div tag was. it looks like it is part of the $after_widget string thats generated elsewhere in the code. so rather than spend forever looking for it. I decided to simple OPEN a new div, right in front of the call to the string. That way, I could open the div and the string would close it. Check the frontend. VERTICAL ALIGNMENT ACHIEVED! check validation, NO ERRORS! wicked….. Here is my code for the /views/widget.php file..
 
 Note the

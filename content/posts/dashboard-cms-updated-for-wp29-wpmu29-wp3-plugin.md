@@ -4,6 +4,10 @@ date: 2010-08-12
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 I really like the Dashboard Content Management Plugin. Personally I have it auto activated on my wpmu2.9 sites and network activated on my wp3 installs. its big easy buttons really make the dashboard friendly for my clients.
 
 Problem is its not wp3 compatible! ..Until now!

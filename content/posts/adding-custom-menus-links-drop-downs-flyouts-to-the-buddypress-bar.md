@@ -4,6 +4,10 @@ date: 2012-03-19
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 It is entirely possible to add your own links to the buddypress bar without modifying core files. It is also possible to add your own drop down menus complete with flyout menus. Let me show you how..
 
 ### First, lets tackle adding a simple link to the buddypress admin bar.

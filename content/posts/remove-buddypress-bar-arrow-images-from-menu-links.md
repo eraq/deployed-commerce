@@ -4,6 +4,10 @@ date: 2010-09-05
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 ### Now, How About We Remove The Arrow Images From Our Non- Drop Down Menu Items
 
 All you have to do is override the <li> tags background css attribute. It’s easy, watch..

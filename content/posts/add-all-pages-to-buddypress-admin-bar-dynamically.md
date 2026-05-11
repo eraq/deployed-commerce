@@ -4,6 +4,10 @@ date: 2010-09-06
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 ### Want to add all your pages into your buddypress admin bar automatically?
 
 It's easy as pie! Just add wp_list_pages to your buddypress bar with the following code!
