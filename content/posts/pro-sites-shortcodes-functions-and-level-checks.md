@@ -4,6 +4,10 @@ date: 2012-03-22
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 Okay, we all remember is_supporter, but things aren’t that easy with pro -sites anymore… I have been reading all over the web people trying to get info on these. They want to do things like wrap a admin menu in a check so that if there not a premium user, the menu isnt shown. They want to display a custom nag to non-paid up users.. So after alot of googling and a jackpot in the code, Here are the functions and parameters. THanks to well documented code..
 
  

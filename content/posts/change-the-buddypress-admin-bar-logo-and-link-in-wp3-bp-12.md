@@ -4,6 +4,10 @@ date: 2010-09-12
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 ### Wanna change the buddypress logo/text in the top left corner?
 
 ### Wanna change the link of the logo/text of the Buddypress admin bar?

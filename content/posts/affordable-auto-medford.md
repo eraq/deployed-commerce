@@ -4,6 +4,10 @@ date: 2010-07-25
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 Affordable Auto Medford is done! Check it Out!
 
 25 years experience building and painting Medfords trophy show cars.

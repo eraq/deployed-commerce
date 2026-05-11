@@ -4,6 +4,10 @@ date: 2010-08-24
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 *Code snippet for custom walker near bottom. Narrative near top*
 
 I was recently working on a clients project where I needed to draw the primary nav of site#1 onto site #2-5, while retaining its ability to be edited via site#1's wp menu editor panel.

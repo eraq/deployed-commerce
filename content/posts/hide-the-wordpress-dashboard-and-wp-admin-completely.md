@@ -4,6 +4,10 @@ date: 2010-09-09
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 ### WordPress 3 Compatible
 
 I have seen several plugins that "hide" the dashboard from subscribers, but none that functions as I want.

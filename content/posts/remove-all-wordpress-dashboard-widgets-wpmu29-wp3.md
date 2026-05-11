@@ -4,6 +4,10 @@ date: 2010-09-12
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 Are you trying to customize your WordPress Dashboard across ALL wpmu or wp3 Multi-Site blog networks?
 
 I customize the Dashboard sitewide on all my wordpress Mu or wp3 blog network sites. There is nothing like having a new blog created and having the dashboard configured how you want without needing any tweaking or attention!

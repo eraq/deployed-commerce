@@ -4,6 +4,10 @@ date: 2010-08-31
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 ### So I noticed that when embedding an Iframe, Google Chrome (and Safari) failed to respond to scrolling=no.
 
 I went to look and see if this syntax was deprecated, but its not.

@@ -4,6 +4,10 @@ date: 2010-09-11
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 So I found an error on a clients server. They were getting the “Upload Failed! Cannot Create Folder” “Is Parent Directory Writeable”.
 
 And yes the folder was writeable. It was the /blogs.dir/1/files folder. of course I checked it and saw it had the appropriate 775 permissions. So I searched the forums and then contacted their servers customer support.

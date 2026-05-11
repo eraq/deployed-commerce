@@ -4,6 +4,10 @@ date: 2010-08-20
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 So, I was working with the login-with-ajax wordpress plugin, When I noticed that it displays differently in chrome. I was blown away that firefox and internet explorer would both show the appropriate  css styling and that chrome should some entirely different placing of the div via css.
 
 So what I needed was a way to have two different style classes for each browser set..

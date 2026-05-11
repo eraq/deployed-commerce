@@ -4,6 +4,10 @@ date: 2011-11-20
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 Embeds all albums from a facebook page into a wordpress page. Simply drop the shortcode and have all albums displayed automatically
 
 Manage your wordpress photo gallery via your facebook page.

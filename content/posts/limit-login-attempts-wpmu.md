@@ -4,6 +4,10 @@ date: 2012-02-21
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 Limit Login Attempts WPMU Friendly + Optimized!
 
 I use wordpress mu(3.3.1) and I just spent some time reworking the ‘Limit Login Attempts’ Plugin (1.6.2) by Johan Eenfeldt to be more WordPress MS friendly. I will mention that this plugin works FANTASTICLY with wordpress MS 3.3.1 + …. Other Mu users may find this usefull… A couple things…

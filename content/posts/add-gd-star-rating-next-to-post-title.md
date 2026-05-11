@@ -4,6 +4,10 @@ date: 2011-09-25
 draft: false
 ---
 
+*Originally published on erikshosting.com. Archived here.*
+
+---
+
 So here is the steps I used to call the GD star rating for a post and display it where I wanted. In my case it was in the LI tags of a list of all posts in a category.
 
   You could use this to post the rating right up next to your post title with a little modification to your template.
