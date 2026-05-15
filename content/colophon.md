@@ -10,7 +10,7 @@ This site is built with [Hugo](https://gohugo.io/) and hosted on [Cloudflare Pag
 
 | Layer | Tool |
 |---|---|
-| Static site generator | Hugo 0.147.1 (extended) |
+| Static site generator | Hugo 0.157.0 (extended) |
 | Theme | [Stack](https://github.com/CaiJimmy/hugo-theme-stack), via git submodule |
 | Hosting | Cloudflare Pages |
 | DNS & SSL | Cloudflare (auto-provisioned) |

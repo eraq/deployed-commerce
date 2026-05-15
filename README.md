@@ -12,7 +12,7 @@ stack described in its posts. Everything here is public and reproducible.
 
 | Layer | Tool |
 |---|---|
-| Static site generator | [Hugo](https://gohugo.io/) 0.147.1 extended |
+| Static site generator | [Hugo](https://gohugo.io/) 0.157.0 extended |
 | Theme | [Stack](https://github.com/CaiJimmy/hugo-theme-stack) via git submodule |
 | Hosting | [Cloudflare Pages](https://pages.cloudflare.com/) |
 | DNS / SSL | Cloudflare (auto-provisioned) |
@@ -99,7 +99,7 @@ Local tooling is only needed for structural or theme changes, not for writing po
 
 **Requirements:**
 - A Linux host (this project uses a Proxmox VM accessed via VS Code SSH)
-- Hugo 0.147.1 extended (see [Hugo Updates](#hugo-updates) below)
+- Hugo 0.157.0 extended (see [Hugo Updates](#hugo-updates) below)
 
 **Local preview:**
 
@@ -164,7 +164,7 @@ updating, the minimum Hugo version requirement may have increased.
 |---|---|
 | Build command | `hugo --gc --minify` |
 | Output directory | `public` |
-| `HUGO_VERSION` | `0.147.1` |
+| `HUGO_VERSION` | `0.157.0` |
 | `HUGO_ENVIRONMENT` | `production` |
 
 These are set in the Cloudflare Pages dashboard under **Settings → Environment variables**.
