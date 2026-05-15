@@ -13,7 +13,7 @@ stack described in its posts. Everything here is public and reproducible.
 | Layer | Tool |
 |---|---|
 | Static site generator | [Hugo](https://gohugo.io/) 0.147.1 extended |
-| Theme | [PaperMod](https://github.com/adityatelange/hugo-PaperMod) via git submodule |
+| Theme | [Stack](https://github.com/CaiJimmy/hugo-theme-stack) via git submodule |
 | Hosting | [Cloudflare Pages](https://pages.cloudflare.com/) |
 | DNS / SSL | Cloudflare (auto-provisioned) |
 | Domain | deployedcommerce.com (registered with Cloudflare) |
@@ -32,7 +32,7 @@ hugo --gc --minify
 The `public/` output directory is served globally via Cloudflare's CDN. Build time
 is typically under 30 seconds. SSL is automatic.
 
-The theme (PaperMod) is a git submodule, it is not vendored into this repo directly.
+The theme (Stack) is a git submodule, it is not vendored into this repo directly.
 Cloudflare Pages fetches it at build time via `git submodule update --init --recursive`.
 
 ---
@@ -45,7 +45,7 @@ deployed-commerce/
 │   ├── posts/          # Blog posts, one .md file per post
 │   └── about.md        # About page
 ├── themes/
-│   └── PaperMod/       # Theme submodule (do not edit directly)
+│   └── hugo-theme-stack/  # Theme submodule (do not edit directly)
 ├── layouts/            # Local overrides, copy theme files here to customize
 ├── static/             # Static assets (images, favicon, etc.)
 ├── archetypes/         # Post templates
@@ -54,7 +54,7 @@ deployed-commerce/
 ```
 
 To override any theme component without modifying the submodule, copy the relevant
-file from `themes/PaperMod/layouts/` into the matching path under `layouts/` and
+file from `themes/hugo-theme-stack/layouts/` into the matching path under `layouts/` and
 edit your copy. Hugo uses local layouts first.
 
 ---
@@ -144,16 +144,16 @@ hugo version
 Also update the `HUGO_VERSION` environment variable in your Cloudflare Pages build
 settings to match.
 
-**Update PaperMod theme:**
+**Update Stack theme:**
 
 ```bash
-git submodule update --remote themes/PaperMod
-git add themes/PaperMod
-git commit -m "Update PaperMod theme"
+git submodule update --remote themes/hugo-theme-stack
+git add themes/hugo-theme-stack
+git commit -m "Update Stack theme"
 git push
 ```
 
-Check [PaperMod's README](https://github.com/adityatelange/hugo-PaperMod) after
+Check [Stack's README](https://github.com/CaiJimmy/hugo-theme-stack) after
 updating, the minimum Hugo version requirement may have increased.
 
 ---

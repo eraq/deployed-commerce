@@ -11,7 +11,7 @@ This site is built with [Hugo](https://gohugo.io/) and hosted on [Cloudflare Pag
 | Layer | Tool |
 |---|---|
 | Static site generator | Hugo 0.147.1 (extended) |
-| Theme | [PaperMod](https://github.com/adityatelange/hugo-PaperMod), via git submodule |
+| Theme | [Stack](https://github.com/CaiJimmy/hugo-theme-stack), via git submodule |
 | Hosting | Cloudflare Pages |
 | DNS & SSL | Cloudflare (auto-provisioned) |
 | Source | [GitHub](https://github.com/eraq/deployed-commerce), public and reproducible |
@@ -34,4 +34,4 @@ Posts are written in Markdown, authored locally in an IDE, and merged to `main` 
 
 ## Theme
 
-The theme is [PaperMod](https://github.com/adityatelange/hugo-PaperMod) by Aditya Telange, included as a git submodule. Local overrides live in the `layouts/` directory and take precedence over the theme without modifying the submodule directly.
+The theme is [Stack](https://github.com/CaiJimmy/hugo-theme-stack) by Jimmy Cai, included as a git submodule. Local overrides live in the `layouts/` directory and take precedence over the theme without modifying the submodule directly.

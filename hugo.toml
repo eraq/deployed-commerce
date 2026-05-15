@@ -1,33 +1,34 @@
 baseURL = "https://deployedcommerce.com/"
 languageCode = "en-us"
 title = "Deployed Commerce"
-theme = "PaperMod"
+theme = "hugo-theme-stack"
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 
 [pagination]
   pagerSize = 10
+
 [params]
-  env = "production"
-  title = "Deployed Commerce"
+  mainSections = ["posts"]
   description = "Technical insights on modern commerce infrastructure."
-  author = "Erik"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowShareButtons = false
-  ShowRssButtonInSectionTermList = true
 
-[params.homeInfoParams]
-  Title = "Deployed Commerce"
-  Content = "Technical writing on commerce infrastructure, self-hosting, and developer tools."
+[params.sidebar]
+  subtitle = "Technical writing on commerce infrastructure, self-hosting, and developer tools."
+  compact = false
 
-[[params.socialIcons]]
-  name = "github"
-  url = "https://github.com/eraq"
+[params.colorScheme]
+  toggle = true
+  default = "auto"
+
+[params.article]
+  toc = true
+  readingTime = true
+  headingAnchor = false
+  math = false
+
+[params.footer]
+  since = 2023
 
 [[menu.main]]
   name = "Posts"
@@ -48,6 +49,15 @@ buildFuture = false
   name = "Colophon"
   url = "/colophon/"
   weight = 4
+
+[[menu.social]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/eraq"
+  weight = 1
+
+  [menu.social.params]
+    icon = "brand-github"
 
 [markup.goldmark.renderer]
   unsafe = true
