@@ -1,3 +1,4 @@
+# deployedcommerce.com
 baseURL = "https://deployedcommerce.com/"
 languageCode = "en-us"
 title = "Deployed Commerce"
