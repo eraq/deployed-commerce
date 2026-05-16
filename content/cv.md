@@ -10,7 +10,7 @@ draft: false
 Lead Solutions Architect, Adobe Commerce Master Architect
 Ashland, Oregon
 
-Adobe Commerce Master Architect and multi-certified Expert with over 10 years as a Full Stack Magento developer, 3+ years as Architect, and 15 years as an OOP developer. Currently working with some of the world's largest companies to plan and execute their commerce platforms.
+Adobe Commerce Master Architect and multi-certified Expert with over 10 years as a Full Stack Magento developer, 3+ years as Architect, and 15 years as an OOP developer. Currently partnered with some of the world's largest consumer brands to plan, architect, and execute enterprise commerce platforms at scale.
 
 ---
 
@@ -19,17 +19,26 @@ Adobe Commerce Master Architect and multi-certified Expert with over 10 years as
 ### Lead Solutions Architect
 **Merkle** — Jan 2023 to Present
 
-Adobe Commerce Technical and Solutions Architect leading best-in-class commerce projects. Client facing, solutions architecting, estimating, resource allocation, roadmapping, team leading, project organizing, and hands-on coding.
+Adobe Commerce Technical and Solutions Architect leading best-in-class commerce projects for some of the world's largest consumer brands. Client facing, solutions architecting, estimating, resource allocation, roadmapping, team leading, and hands-on coding.
 
-### Technical Lead Magento Developer
-**Blackstone Publishing** — May 2018 to Jan 2023
+**Nestlé Nutrition Science → Nestlé Nutrition Health** *(2023 – Present)*
+Lead technical architect across the full Nestlé Nutrition Science brand portfolio, transitioning to Lead Solutions Architect as the account expanded under the Nestlé Nutrition Health umbrella following a 2026 rebrand.
+- *Nestlé Nutrition:* nestlenutritionstore.com, boost.com, carnationbreakfastessentials.com, optifast.com, solgar.com
+- *Garden of Life:* gardenoflife.com
+- *Atrium Innovations:* pureencapsulations.com, douglaslabs.com, kleanathlete.com, Seroyal, Genestra, and Canadian equivalents
 
-Technical Lead Developer and Architect of B2C and B2B multisite cloud enterprise implementations. Leading an Adobe Commerce agile development team using Jira, Confluence, Docker, Git, and NewRelic. Translating and documenting stakeholder requirements through the entire lifecycle. Designing and building complex modules and features, REST/GraphQL APIs, payment gateways, and more.
+**Purina** *(Jan – Dec 2025)*
+Lead Solutions Architect across the Purina digital commerce ecosystem.
+- Brands: petfinder.com, Shop Purina (D2C), Pro Plan Vet Direct, Purina Shelter Champions
 
-### Senior Magento Developer
-**Blackstone Publishing** — Jun 2014 to May 2018
+---
 
-Magento developer working in a Linux, Nginx, MySQL, PHP, SCSS, and JavaScript environment using the Agile methodology.
+### Technical Lead & Senior Magento Developer
+**Blackstone Publishing** — Jun 2014 to Jan 2023
+
+Progressed from Senior Developer to Technical Lead and Architect over nearly a decade, owning B2C and B2B multisite cloud enterprise implementations end to end. Led an Adobe Commerce agile development team using Jira, Confluence, Docker, Git, and NewRelic. Translated and documented stakeholder requirements through the entire lifecycle. Designed and built complex modules and features, REST/GraphQL APIs, payment gateways, and more.
+
+---
 
 ### Lead Software Engineer
 **What She Said Marketing** — 2014
@@ -38,14 +47,30 @@ HubSpot COS, Joomla, Drupal, and custom PHP/MySQL solutions. Full design and dev
 
 ---
 
+### Senior Software Engineer
+**All Pro Webworks, LLC** — 2012 to 2014
+Salem, Oregon
+
+Full stack developer in a LAMP environment fulfilling site design and programming contracts.
+
+---
+
+### Developer
+**White Crossroads Web Designs** — 2008 to 2012
+Cape Coral, FL
+
+Full stack LAMP developer coding site designs and web software, ranging from brochure sites to custom web applications.
+
+---
+
 ## Certifications
 
-- AD0-E722 Adobe Commerce Architect Master — Adobe
-- AD0-E725 Adobe Commerce Developer Expert — Adobe
-- AD0-E708 Adobe Commerce Business Practitioner Expert — Adobe
-- AD0-E138 Adobe Experience Manager Business Practitioner Professional — Adobe
+- Adobe Commerce Architect Master — Adobe *(AD0-E722)*
+- Adobe Commerce Developer Expert — Adobe *(AD0-E725)*
+- Adobe Commerce Business Practitioner Expert — Adobe *(AD0-E708)*
+- Adobe Experience Manager Business Practitioner Professional — Adobe *(AD0-E138)*
 - Certified ScrumMaster (CSM) — Scrum Alliance
-- Adobe Commerce: Sales Accreditation — Adobe
+- Adobe Commerce Sales Accreditation — Adobe
 - HubSpot Inbound Certification — HubSpot
 - HubSpot Design Certification — HubSpot
 
@@ -53,13 +78,22 @@ HubSpot COS, Joomla, Drupal, and custom PHP/MySQL solutions. Full design and dev
 
 ## Skills
 
-Adobe Commerce, Magento, PHP, MySQL, JavaScript, React, Node.js, REST, GraphQL, Docker, Git, DevOps, Microservices, RabbitMQ, Linux, SCSS, AngularJS, Jira, Confluence, NewRelic
+**Platforms & Languages:** Adobe Commerce, Magento, PHP, MySQL, JavaScript, React, Node.js, AngularJS, SCSS
+**APIs & Architecture:** REST, GraphQL, Microservices, RabbitMQ
+**Tools & DevOps:** Docker, Git, DevOps, Linux, Jira, Confluence, NewRelic
 
 ---
 
 ## Education
 
-Southern Oregon University
+**Bachelor of Science — Sociology & Anthropology**
+Southern Oregon University, Ashland, OR
+
+**Certificate in Conflict Management & Resolution** *(28 credit hours)*
+Southern Oregon University, Ashland, OR
+- Interdisciplinary curriculum covering negotiation, mediation, and conflict intervention strategies
+- Coursework in conflict theory, cultural/ethical dimensions of dispute resolution, and restorative communication
+- Applied training in coaching, facilitation, and third-party mediation across professional and interpersonal contexts
 
 Hawaii Preparatory Academy
 
