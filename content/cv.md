@@ -89,9 +89,9 @@ Full stack LAMP developer coding site designs and web software, ranging from bro
 
 ## Skills
 
-**Platforms & Languages:** Adobe Commerce, Magento, PHP, MySQL, JavaScript, React, Node.js, AngularJS, SCSS
+**Platforms & Languages:** Adobe Commerce, Magento, PHP, MySQL, JavaScript, React, Node.js, AngularJS, SCSS, LESS, SASS
 **APIs & Architecture:** REST, GraphQL, Microservices, RabbitMQ
-**Tools & DevOps:** Docker, Git, DevOps, Linux, Jira, Confluence, NewRelic
+**Tools & DevOps:** Docker, Git, DevOps, Linux, Jira, Confluence, NewRelic, Github, Jenkins, Cypress Testing, NewRelic, AWS, Azure
 
 ---
 
