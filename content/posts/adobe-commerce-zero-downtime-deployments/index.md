@@ -3,9 +3,14 @@ title: "Adobe Commerce Zero Downtime Deployments. The Good, The Bad, and The Dat
 date: 2026-05-02
 draft: false
 tags: ["adobe-commerce", "magento2", "devops", "deployment"]
-image: yabadee-yabadoo.webp
+image: zero-downtime-banner.webp
 description: "Zero downtime deployments in Adobe Commerce are a genuine overhead when you're shipping features with data patches, but for day-to-day frontend work they're nearly invisible and really good."
 ---
+
+<figure style="float: left; max-width: 500px; margin: 0 1.5rem 1rem 0;">
+  <img src="yabadee-yabadoo.webp" alt="blue green, wait i mean zero downtime right?" style="width: 100%; display: block;">
+  <figcaption><s>blue green</s> zero downtime deployments</figcaption>
+</figure>
 
 So if you're on Adobe Commerce Cloud, you have zero downtime deployments available to you, but there's a right way to set them up.
 
