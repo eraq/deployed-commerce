@@ -12,7 +12,8 @@ description: "Zero downtime deployments in Adobe Commerce are a genuine overhead
   <figcaption><s>blue green</s> zero downtime deployments</figcaption>
 </figure>
 
-So if you're on Adobe Commerce Cloud, you have zero downtime deployments available to you, but there's a right way to set them up.
+Zero Downtime deployments really kicks butt for design work.
+So if you're on Adobe Commerce Cloud, you have zero downtime deployments available to you, but there's a right way to set them up and it's gotta be part of your workflow.
 
 The way it works is you move static content generation into the build phase rather than the deploy phase. That's the key. When SCD runs during build, the deploy phase becomes short enough that Adobe can hold active connections in a queue, up to five minutes, and release them when the deployment completes. Sessions stay intact, carts don't drop, and the store never goes dark. No maintenance window, no putting the site offline and hoping nobody notices.
 
@@ -22,7 +23,7 @@ For the projects where everything is built to handle this that's great, but in r
 
 Here's the deal with data patches.
 
-Your deploy hooks run in order, build, then deploy (setup:upgrade, data patches, the whole thing), then post-deploy. So there's a gap where your new code is live but your database is still sitting at the old schema. If you wrote a feature that reads a new column and you didn't write a fallback for the state before the patch runs, you're going to get errors. Possibly in production.
+Your deploy hooks run in order, build, then deploy (setup:upgrade, data patches, the whole thing), then post-deploy. So there's a gap where your new code is live but your database is still sitting at the old schema. If you wrote a feature that reads a new column and you didn't write a fallback for the state before the patch runs, you're going to get errors. Possibly *cough* probably *cough* in production.
 
 So you end up writing code that checks whether a column or table exists before it queries it. Making sure your data patches are idempotent. Testing what happens when the patch hasn't run yet, not just when it has. And if the patch itself throws an exception halfway through, setup:upgrade bails and you're in rollback territory.
 
