@@ -7,8 +7,8 @@ image: zero-downtime-banner.webp
 description: "Zero downtime deployments in Adobe Commerce are a genuine overhead when you're shipping features with data patches, but for day-to-day frontend work they're nearly invisible and really good."
 ---
 
-<figure>
-  <img src="yabadee-yabadoo.webp" alt="Blue Man Group">
+<figure style="float: left; max-width: 500px; margin: 0 1.5rem 1rem 0;">
+  <img src="yabadee-yabadoo.webp" alt="blue green, wait i mean zero downtime right?" style="width: 100%; display: block;">
   <figcaption><s>blue green</s> zero downtime deployments</figcaption>
 </figure>
 
