@@ -36,7 +36,18 @@ Lead Solutions Architect across the Purina digital commerce ecosystem.
 ### Technical Lead & Senior Magento Developer
 **Blackstone Publishing** — Jun 2014 to Jan 2023
 
-Progressed from Senior Developer to Technical Lead and Architect over nearly a decade, owning B2C and B2B multisite cloud enterprise implementations end to end. Led an Adobe Commerce agile development team using Jira, Confluence, Docker, Git, and NewRelic. Translated and documented stakeholder requirements through the entire lifecycle. Designed and built complex modules and features, REST/GraphQL APIs, payment gateways, and more.
+Progressed from Senior Developer to Technical Lead and Architect over nearly a decade at one of the largest independent audiobook publishers in the world. Led and architected a suite of enterprise Adobe Commerce platforms and bespoke internal software, owning the full lifecycle from requirements through deployment.
+
+**Downpour.com & UrbanAudioBooks.com** — D2C audiobook and streaming platforms
+Inherited both platforms on Magento 1.x and led full rebuilds to Adobe Commerce 2.x, expanding each to include in-browser streaming players and API integrations with iOS and Android apps developed by a separate team. Collaborated closely on API design to ensure seamless cross-platform experience.
+
+**Blackstone Wholesale** — B2B platform for wholesalers and libraries
+Architected and led development of a heavily customized Adobe Commerce B2B implementation supporting close to 2 million active SKUs. Built a custom pricing engine supporting fully negotiated per-customer rates with multi-factor discount logic as configured by sales reps. Integrated manufacturing-on-demand workflows pushing jobs through middleware into warehouse operations for on-the-fly production and fulfillment of both print and audio formats.
+
+**BlackstonePublishing.com** — D2C flagship and publishing house brochure site
+
+**Catalog** — Proprietary internal digital asset management and workflow system
+Contributed to and extended a bespoke Angular/Backbone.js platform housing contract data, published works, and all audio, DRM, and graphic design assets. Developed process flows managing cover art creation through designer collaboration, revision cycles, and approval stages.
 
 ---
 
@@ -78,9 +89,9 @@ Full stack LAMP developer coding site designs and web software, ranging from bro
 
 ## Skills
 
-**Platforms & Languages:** Adobe Commerce, Magento, PHP, MySQL, JavaScript, React, Node.js, AngularJS, SCSS
+**Platforms & Languages:** Adobe Commerce, Magento, PHP, MySQL, JavaScript, React, Node.js, AngularJS, SCSS, LESS, SASS
 **APIs & Architecture:** REST, GraphQL, Microservices, RabbitMQ
-**Tools & DevOps:** Docker, Git, DevOps, Linux, Jira, Confluence, NewRelic
+**Tools & DevOps:** Docker, Git, DevOps, Linux, Jira, Confluence, NewRelic, Github, Jenkins, Cypress Testing, NewRelic, AWS, Azure
 
 ---
 
