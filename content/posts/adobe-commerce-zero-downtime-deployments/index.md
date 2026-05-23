@@ -7,11 +7,6 @@ image: yabadee-yabadoo.webp
 description: "Zero downtime deployments in Adobe Commerce are a genuine overhead when you're shipping features with data patches, but for day-to-day frontend work they're nearly invisible and really good."
 ---
 
-<figure>
-  <img src="yabadee-yabadoo.webp" alt="Blue Man Group">
-  <figcaption><s>blue green</s> zero downtime deployments</figcaption>
-</figure>
-
 So if you're on Adobe Commerce Cloud, you have zero downtime deployments available to you, but there's a right way to set them up.
 
 The way it works is you move static content generation into the build phase rather than the deploy phase. That's the key. When SCD runs during build, the deploy phase becomes short enough that Adobe can hold active connections in a queue, up to five minutes, and release them when the deployment completes. Sessions stay intact, carts don't drop, and the store never goes dark. No maintenance window, no putting the site offline and hoping nobody notices.
