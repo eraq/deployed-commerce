@@ -33,7 +33,7 @@ Lead Solutions Architect across the Purina digital commerce ecosystem.
 
 ---
 
-### Technical Lead & Senior Magento Developer
+### Technical Architect, Technical Lead, & Senior Magento Developer
 **Blackstone Publishing** — Jun 2014 to Jan 2023
 
 Progressed from Senior Developer to Technical Lead and Architect over nearly a decade at one of the largest independent audiobook publishers in the world. Led and architected a suite of enterprise Adobe Commerce platforms and bespoke internal software, owning the full lifecycle from requirements through deployment.
