@@ -3,6 +3,7 @@ title: "Adobe Commerce Zero Downtime Deployments. The Good, The Bad, and The Dat
 date: 2026-05-02
 draft: false
 tags: ["adobe-commerce", "magento2", "devops", "deployment"]
+image: yabadee-yabadoo.webp
 description: "Zero downtime deployments in Adobe Commerce are a genuine overhead when you're shipping features with data patches, but for day-to-day frontend work they're nearly invisible and really good."
 ---
 
